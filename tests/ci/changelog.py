@@ -6,7 +6,7 @@ import logging
 import re
 from datetime import date, timedelta
 from pathlib import Path
-from subprocess import DEVNULL, CalledProcessError
+from subprocess import DEVNULL
 from typing import Any, Dict, List, Optional, TextIO
 
 from github.GithubException import RateLimitExceededException, UnknownObjectException
